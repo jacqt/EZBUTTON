@@ -1,0 +1,4 @@
+EZBUTTON
+========
+
+That was easy.
