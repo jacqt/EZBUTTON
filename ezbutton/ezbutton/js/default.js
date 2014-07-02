@@ -16,8 +16,12 @@
                 // Restore application state here.
             }
             args.setPromise(WinJS.UI.processAll());
+
+            //Handle easy_button click
+            document.getElementById("easy_button").addEventListener("click", onEasyButtonClick, false);
         }
     };
+
 
     app.oncheckpoint = function (args) {
         // TODO: This application is about to be suspended. Save any state
@@ -27,6 +31,11 @@
         // asynchronous operation before your application is suspended, call
         // args.setPromise().
     };
+
+    var easySound = new Audio("/assets/thatwaseasy.mp3");
+    function onEasyButtonClick(eventInfo) {
+        easySound.play();
+    }
 
     app.start();
 })();
