@@ -4,4 +4,16 @@
 .phone {
     margin-left: auto;
     margin-right: auto;
+	display: table;
+	overflow: auto;
+}
+
+.button-wrapper {
+	vertical-align:middle;	
+	text-align:center;
+	display: table-cell;
+}
+
+button {
+	vertical-align: middle;
 }

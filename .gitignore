@@ -5,7 +5,8 @@
 *.suo
 *.user
 *.sln.docstates
-*.jsproj
+*.swp
+*~
 
 # Build results
 
@@ -13,7 +14,6 @@
 [Rr]elease/
 x64/
 build/
-Debug/
 bld/
 [Bb]in/
 [Oo]bj/
