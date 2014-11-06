@@ -18,7 +18,7 @@
             args.setPromise(WinJS.UI.processAll());
 
             //Handle easy_button click
-            document.getElementById("easy_button").addEventListener("click", onEasyButtonClick, false);
+            document.getElementById("easy-button").addEventListener("click", onEasyButtonClick, false);
         }
     };
 

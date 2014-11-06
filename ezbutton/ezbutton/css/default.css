@@ -6,14 +6,15 @@
     margin-right: auto;
 	display: table;
 	overflow: auto;
+    background-color: #e72222;
 }
 
-.button-wrapper {
-	vertical-align:middle;	
-	text-align:center;
+.button-container {
+	vertical-align: middle;
+	text-align: center;
 	display: table-cell;
 }
 
-button {
+#easy-button {
 	vertical-align: middle;
 }
