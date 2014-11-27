@@ -1,47 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest">
-
-  <Identity
-    Name="2211f89a-798d-4b10-910f-dd833cf2e6c5"
-    Version="1.0.0.0"
-    Publisher="CN=Charles" />
-
+  <Identity Name="53405TasteGoodStudios.ThatWasEasy" Version="1.1.0.0" Publisher="CN=B32931C5-FF45-4CC8-A29A-9247CC2A3FE3" />
   <Properties>
-    <DisplayName>ezbutton.Windows</DisplayName>
-    <PublisherDisplayName>Charles</PublisherDisplayName>
+    <DisplayName>That Was Easy</DisplayName>
+    <PublisherDisplayName>Taste Good Studios</PublisherDisplayName>
     <Logo>images\storelogo.png</Logo>
   </Properties>
-
   <Prerequisites>
     <OSMinVersion>6.3.0</OSMinVersion>
     <OSMaxVersionTested>6.3.0</OSMaxVersionTested>
   </Prerequisites>
-
   <Resources>
     <Resource Language="x-generate" />
   </Resources>
-
   <Applications>
-    <Application 
-      Id="App"
-      StartPage="default.html">
-
-      <m2:VisualElements
-        DisplayName="ezbutton.Windows"
-        Description="ezbutton.Windows"
-        ForegroundText="light"
-        BackgroundColor="#464646"
-        Square150x150Logo="images\Logo.png"
-        Square30x30Logo="images\SmallLogo.png">
-
-        <m2:SplashScreen Image="images\splashscreen.png" />
-
+    <Application Id="App" StartPage="default.html">
+      <m2:VisualElements DisplayName="That Was Easy" Description="ezbutton.Windows" ForegroundText="light" BackgroundColor="#e72223" Square150x150Logo="images\Logo.png" Square30x30Logo="images\SmallLogo.png">
+        <m2:DefaultTile Wide310x150Logo="images\Wide310x150Logo.png">
+        </m2:DefaultTile>
+        <m2:SplashScreen Image="images\splashscreen.png" BackgroundColor="#e72223" />
       </m2:VisualElements>
     </Application>
   </Applications>
-
   <Capabilities>
     <Capability Name="internetClient" />
   </Capabilities>
-
 </Package>

@@ -6,5 +6,7 @@
     <SharedGUID>89c2e0d2-bd74-44e9-abe0-0ad2601890cd</SharedGUID>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="$(MSBuildThisFileDirectory)assets\thatwaseasy.mp3" />
+    <Content Include="$(MSBuildThisFileDirectory)js\default.js" />
   </ItemGroup>
 </Project>

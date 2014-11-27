@@ -1,0 +1,2 @@
+MainPackage=D:\TG\EZBUTTON\ezbutton\ezbutton.Windows\bin\Release\ezbutton.Windows_1.1.0.0_Bundle\ezbutton.Windows_1.1.0.0_AnyCPU.appx
+ResourcePack=D:\TG\EZBUTTON\ezbutton\ezbutton.Windows\bin\Release\ezbutton.Windows_1.1.0.0_Bundle\ezbutton.Windows_1.1.0.0_scale-180.appx
